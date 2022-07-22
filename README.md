@@ -1,0 +1,1 @@
+# gin-sql-mysql-tmpl
