@@ -1,0 +1,304 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-apple-darwin11.3.0
+ 
+make: *** No rule to make target `all'.  Stop.
+
+
+# Make data base, printed on Fri Jul 22 09:12:40 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# environment
+GOENV_ROOT = /Users/nakai-ryoichi/.goenv
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# makefile
+CURDIR := /Users/nakai-ryoichi/Workspace/private/gin-sqlx-mysql-tmpl
+# makefile
+SHELL = /bin/sh
+# environment
+PROMPT_EOL_MARK = 
+# environment
+VSCODE_NLS_CONFIG = {"locale":"ja","availableLanguages":{"*":"ja"},"_languagePackId":"3cd3bd15e30fa0124a3f232cbca66525.ja","_translationsConfigFile":"/Users/nakai-ryoichi/Library/Application Support/Code/clp/3cd3bd15e30fa0124a3f232cbca66525.ja/tcf.json","_cacheRoot":"/Users/nakai-ryoichi/Library/Application Support/Code/clp/3cd3bd15e30fa0124a3f232cbca66525.ja","_resolvedLanguagePackCoreLocation":"/Users/nakai-ryoichi/Library/Application Support/Code/clp/3cd3bd15e30fa0124a3f232cbca66525.ja/b06ae3b2d2dbfe28bca3134cc6be65935cdfea6a","_corruptedFile":"/Users/nakai-ryoichi/Library/Application Support/Code/clp/3cd3bd15e30fa0124a3f232cbca66525.ja/corrupted.info","_languagePackSupport":true}
+# environment
+_ = /usr/bin/make
+# makefile (from `Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# environment
+GOENV_SHELL = zsh
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+__CFBundleIdentifier = com.microsoft.VSCode
+# environment
+FNM_NODE_DIST_MIRROR = https://nodejs.org/dist
+# environment
+VSCODE_CWD = /Users/nakai-ryoichi/Workspace/bootcamp/ml-training-2022
+# environment
+GOPROXY = https://proxy.golang.org,direct
+# environment
+PATH = /Users/nakai-ryoichi/.goenv/versions/1.18.2/bin:/Users/nakai-ryoichi/.goenv/shims:/Users/nakai-ryoichi/.goenv/bin:/Users/nakai-ryoichi/Library/Caches/fnm_multishells/2761_1657762558572/bin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Library/Apple/usr/bin:/Users/nakai-ryoichi/go/1.18.2/bin
+# environment
+GOROOT = /Users/nakai-ryoichi/.goenv/versions/1.18.2
+# makefile (from `Makefile', line 5)
+CGO_ENABLED = 0
+# environment
+LSCOLORS = gxfxcxdxbxegedabagacad
+# environment
+GOPATH = /Users/nakai-ryoichi/go/1.18.2
+# environment
+FNM_LOGLEVEL = info
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
+# environment
+LS_COLORS = di=36:ln=35:so=32:pi=33:ex=31:bd=46;34:cd=43;34:su=41;30:sg=46;30:tw=42;30:ow=43;30
+# environment
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.RMuB2nBU8H/Listeners
+# automatic
+%F = $(notdir $%)
+# environment
+DISPLAY = /private/tmp/com.apple.launchd.m6dSgFAB5f/org.xquartz:0
+# environment
+PWD = /Users/nakai-ryoichi/Workspace/private/gin-sqlx-mysql-tmpl
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+GOMODCACHE = /Users/nakai-ryoichi/go/1.18.2/pkg/mod
+# environment
+HOME = /Users/nakai-ryoichi
+# default
+MAKEFILEPATH = $(shell /usr/bin/xcode-select -print-path 2>/dev/null || echo /Developer)/Makefiles
+# environment
+VSCODE_CLI = 1
+# environment
+VSCODE_CODE_CACHE_PATH = /Users/nakai-ryoichi/Library/Application Support/Code/CachedData/b06ae3b2d2dbfe28bca3134cc6be65935cdfea6a
+# environment
+FNM_MULTISHELL_PATH = /Users/nakai-ryoichi/Library/Caches/fnm_multishells/2761_1657762558572
+# environment
+LOGNAME = nakai-ryoichi
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+XPC_FLAGS = 0x0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 3
+# default
+MAKE_VERSION := 3.81
+# makefile (from `Makefile', line 1)
+MAKEFILE_DIR := /Users/nakai-ryoichi/Workspace/private/gin-sqlx-mysql-tmpl/
+# environment
+USER = nakai-ryoichi
+# makefile
+.DEFAULT_GOAL := export
+# environment
+TERM_SESSION_ID = AF4F5E92-ADC7-4130-99B2-0E0A0673E3B8
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# default
+MAKE_COMMAND := /Library/Developer/CommandLineTools/usr/bin/make
+# environment
+TERM_PROGRAM = Apple_Terminal
+# default
+.VARIABLES := 
+# environment
+TMPDIR = /var/folders/xw/b0yfrx2127gg5dm2pfm7wzyc0000gp/T/
+# automatic
+*F = $(notdir $*)
+# makefile (from `Makefile', line 6)
+GOOS = linux
+# environment
+VSCODE_IPC_HOOK = /Users/nakai-ryoichi/Library/Application Support/Code/1.69.1-main.sock
+# environment
+MallocNanoZone = 0
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+TERM_PROGRAM_VERSION = 445
+# environment
+FNM_VERSION_FILE_STRATEGY = local
+# environment
+XPC_SERVICE_NAME = application.com.microsoft.VSCode.25467882.25467888.6C1292D1-47BA-4BC5-949B-F2B574E59F02
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# automatic
++F = $(notdir $+)
+# makefile (from `Makefile', line 2)
+OUTPUT := /Users/nakai-ryoichi/Workspace/private/gin-sqlx-mysql-tmpl/build/app
+# environment
+__CF_USER_TEXT_ENCODING = 0x1F6:0x1:0xE
+# environment
+COMMAND_MODE = unix2003
+# default
+MAKEFILES := 
+# makefile (from `Makefile', line 3)
+TARGET_DIR := /Users/nakai-ryoichi/Workspace/private/gin-sqlx-mysql-tmpl/
+# automatic
+<F = $(notdir $<)
+# environment
+FNM_DIR = /Users/nakai-ryoichi/Library/Application Support/fnm
+# environment
+LC_ALL = C
+# environment
+CONDA_CHANGEPS1 = no
+# environment
+VIRTUAL_ENV_DISABLE_PROMPT = 12
+# makefile (from `Makefile', line 7)
+GOARCH = amd64
+# automatic
+^F = $(notdir $^)
+# environment
+FNM_ARCH = arm64
+# default
+SUFFIXES := 
+# default
+.INCLUDE_DIRS = /usr/local/include
+# environment
+MAKELEVEL := 0
+# environment
+CLICOLOR = 1
+# environment
+LANG = C
+# environment
+TERM = xterm-256color
+# environment
+VSCODE_PID = 3116
+# variable set hash-table stats:
+# Load=89/1024=9%, Rehash=0, Collisions=6/116=5%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 16777234, inode 25807221): 16 files, no impossibilities.
+
+# 16 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+all:
+#  Command-line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+.PHONY: export build swag mod
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-22 09:02:54
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+build:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 18):
+	go build -o $(OUTPUT) $(TARGET_DIR)
+	
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+export:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 11):
+	CGO_ENABLED=${CGO_ENABLED}
+	GOOS=${GOOS}
+	GOARCH=${GOARCH}
+	export CGO_ENABLED GOOS GOARCH 
+	
+
+mod:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 26):
+	go mod download
+	
+
+swag:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 22):
+	swag init
+	
+
+# files hash-table stats:
+# Load=9/1024=1%, Rehash=0, Collisions=0/28=0%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 1
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+ 
+# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
+
+# Finished Make data base on Fri Jul 22 09:12:40 2022
+
+ 

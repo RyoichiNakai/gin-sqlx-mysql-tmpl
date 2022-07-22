@@ -1,0 +1,8 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/nakai-ryoichi/Workspace/private/gin-sqlx-mysql-tmpl'
+CGO_ENABLED=0
+GOOS=linux
+GOARCH=amd64
+export CGO_ENABLED GOOS GOARCH 
+make: Leaving directory `/Users/nakai-ryoichi/Workspace/private/gin-sqlx-mysql-tmpl'
+ 
