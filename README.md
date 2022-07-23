@@ -2,7 +2,7 @@
 
 ## docker compose の起動方法
 
-- db.envを作成し、以下の設定を定義してください
+- .envを作成し、以下の設定を定義してください
 
 ```txt
 MYSQL_HOST=xxxxxx

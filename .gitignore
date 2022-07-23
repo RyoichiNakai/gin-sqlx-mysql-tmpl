@@ -23,3 +23,6 @@ go.work
 
 # mysql
 .data/
+
+# build
+build/
