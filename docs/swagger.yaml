@@ -1,13 +1,17 @@
+basePath: /v1
+host: localhost:8080
 info:
   contact: {}
+  description: 仕様書に関する内容説明
+  termsOfService: 仕様書使用する際の注意事項
+  title: sample
+  version: "1.0"
 paths:
   /example/helloworld:
     get:
       consumes:
       - application/json
-      description: |-
-        仕様書に関する内容説明
-        do ping
+      description: do ping
       produces:
       - application/json
       responses:

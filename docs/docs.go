@@ -10,6 +10,7 @@ const docTemplate = `{
     "info": {
         "description": "{{escape .Description}}",
         "title": "{{.Title}}",
+        "termsOfService": "仕様書使用する際の注意事項",
         "contact": {},
         "version": "{{.Version}}"
     },
@@ -18,7 +19,7 @@ const docTemplate = `{
     "paths": {
         "/example/helloworld": {
             "get": {
-                "description": "仕様書に関する内容説明\ndo ping",
+                "description": "do ping",
                 "consumes": [
                     "application/json"
                 ],
@@ -44,12 +45,12 @@ const docTemplate = `{
 
 // SwaggerInfo holds exported Swagger Info so clients can modify it
 var SwaggerInfo = &swag.Spec{
-	Version:          "",
-	Host:             "",
-	BasePath:         "",
+	Version:          "1.0",
+	Host:             "localhost:8080",
+	BasePath:         "/v1",
 	Schemes:          []string{},
-	Title:            "",
-	Description:      "",
+	Title:            "sample",
+	Description:      "仕様書に関する内容説明",
 	InfoInstanceName: "swagger",
 	SwaggerTemplate:  docTemplate,
 }

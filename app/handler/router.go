@@ -17,12 +17,6 @@ func NewRouter(r *gin.Engine) {
 	}
 }
 
-// @title テストドキュメント
-// @version バージョン(1.0)
-// @description 仕様書に関する内容説明
-// @termsOfService 仕様書使用する際の注意事項
-// @host localhost:8080
-// @BasePath /v1
 // PingExample godoc
 // @Summary ping example
 // @Schemes
